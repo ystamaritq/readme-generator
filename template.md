@@ -14,8 +14,8 @@
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [User GitHub profile picture](#picture)
-- [User GitHub email](#email)
+- [User GitHub profile picture](#user-gitHub-profile-picture)
+- [User GitHub email](#user-gitHub-email)
 
 ## Installation
 
