@@ -74,11 +74,11 @@ function validateEmail(input) {
 
 function showInstructions() {
 	console.log(
-		"\n------------\n" +
-			"This utility will walk you through creating a README.md file.\n" +
-			"Some section will allow to enter complex markdown text using your default text editor.\n\n" +
-			"Press ^C at any time to quit." +
-			"\n------------\n"
+		"\n  *****************************************************************************************\n" +
+			"* This utility will walk you through creating a README.md file.\n\n" +
+			"* Some section will allow to enter complex markdown text using your default text editor.\n\n" +
+			"* Press ^C at any time to quit." +
+			"\n  *****************************************************************************************\n"
 	);
 }
 
