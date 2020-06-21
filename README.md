@@ -8,7 +8,7 @@ A command-line application that dynamically generates a README.md from a user's 
 node index.js
 ```
 
-## User Story
+## User Stories
 
 ```
 AS A developer
@@ -23,7 +23,6 @@ SO THAT I can easily put together a good README for a new project
 ## Acceptance Criteria
 
 ```
-
 GIVEN the developer has a GitHub profile and a repository
 
 WHEN prompted for the developer's GitHub username and repo specific information
@@ -46,4 +45,16 @@ THEN a README for the repo is generated
 - Tests
 - Questions
 
+## Demo
+
+#### - The following animation demonstrates the application functionality:
+
+![readme generator](./assets/gif/readme-generator.gif)
+
+## Licensing
+
+"The code in this project is licensed under MIT license."
+
 ---
+
+**developed with love by **@ystamaritq\*\*\*\*
