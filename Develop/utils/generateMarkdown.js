@@ -1,10 +1,9 @@
 function generateMarkdown(data) {
 	return `
   
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+${data.badges}
 
 # ${data.title}
---
 
 ## Table of Contents
 
@@ -19,19 +18,16 @@ function generateMarkdown(data) {
   - [User GitHub profile picture](#user-gitHub-profile-picture)
   - [User GitHub email](#user-gitHub-email)
 
---
 
 ## Description
 
 ${data.description}
 
---
 
 ## Installation
 
 ${data.installation}
 
---
 
 ## Usage
 
@@ -41,11 +37,9 @@ ${data.usage}
 
 ${data.license}
 
-[https://choosealicense.com/](https://choosealicense.com/)
-
 ## Contributing
 
-${data.contribution}
+${data.contributing}
 
 ## Tests
 
@@ -53,17 +47,10 @@ ${data.tests}
 
 ## Questions
 
-### ${data.questions[0]}
-### ${data.questions[1]}
-
-## User GitHub profile picture
-
-## User GitHub email
-
-## Contributing
-
-
-/* template code ends */
+### User GitHub profile picture
+- ${data.profile_picture}
+### User GitHub email
+- ${data.gh_email}
 
 `;
 }
