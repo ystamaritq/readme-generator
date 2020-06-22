@@ -5,10 +5,10 @@
 A command-line application that dynamically generates a README.md from a user's input. To run the application you will need to:
 
 ```
-step 1: clone `https://github.com/ystamaritq/readme-generator.git`
+step 1: clone https://github.com/ystamaritq/readme-generator.git
 step 2: install node
 step 3: npm install
-step 4: node `index.js`
+step 4: node index.js
 ```
 
 ## User Stories
