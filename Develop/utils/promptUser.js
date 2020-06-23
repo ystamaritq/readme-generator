@@ -38,7 +38,7 @@ const questions = [
 	{
 		type: "editor",
 		name: "installation",
-		message: "installation steps:",
+		message: "installation steps (enter valid markdown):",
 		validate: validateNonEmpty,
 		when: (answers) => {
 			return answers.hasInstallationSection;
@@ -53,7 +53,7 @@ const questions = [
 	{
 		type: "editor",
 		name: "usage",
-		message: "usage instructions:",
+		message: "usage instructions (enter valid markdown):",
 		when: (answers) => {
 			return answers.hasUsageSection;
 		},
@@ -83,7 +83,7 @@ const questions = [
 	{
 		type: "editor",
 		name: "contributing",
-		message: "contributing instructions:",
+		message: "contributing instructions (enter valid markdown):",
 		when: (answers) => {
 			return answers.hasContributionSection;
 		},
@@ -97,7 +97,7 @@ const questions = [
 	{
 		type: "editor",
 		name: "tests",
-		message: "project tests: ",
+		message: "project tests (enter valid markdown):",
 		when: (answers) => {
 			return answers.hasTestSection;
 		},
