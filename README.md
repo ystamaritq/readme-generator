@@ -52,9 +52,9 @@ THEN a README for the repo is generated
 
 ## Demo
 
-#### - The following animation demonstrates the application functionality:
+#### - The following video demonstrates the application functionality:
 
-![readme generator](./assets/gif/readme-generator.gif)
+[Readme Generator Video _Click Me_](http://www.youtube.com/watch?v=4rH2Fp_MFtM)
 
 ## Licensing
 
