@@ -1,4 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/ystamaritq/readme-generator)
+![GitHub top language](https://img.shields.io/github/languages/top/ystamaritq/readme-generator)
 
 # Readme Generator
 

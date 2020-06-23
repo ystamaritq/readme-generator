@@ -56,14 +56,16 @@ function getUserDataFromGHAsync(username) {
 function generateMarkdownString(data, ghData) {
 	return `
 
+# ${data.title}
+
 ${data.badges}
 
-# ${data.title}
+## Description
+
+${data.description}
 
 ## Table of Contents
 
-- [Project Title](#project-title)
-- [Description](#description)
 ${getInstallationTableOfContentLink(data)}
 ${getUsageTableOfContentLink(data)}
 - [License](#license)
@@ -72,11 +74,6 @@ ${getTestTableOfContentLink(data)}
 - [Questions](#questions)
   - [User GitHub profile picture](#user-gitHub-profile-picture)
   - [User GitHub email](#user-gitHub-email)
-
-
-## Description
-
-${data.description}
 
 ${getInstallationSection(data)}
 
@@ -96,8 +93,9 @@ ${getTestSection(data)}
 
 ![image](${ghData.avatar_url})
 
-### User GitHub email
-- ${data.gh_email}
+If you have any questions about the repo, open an issue or contact [${
+		data.username
+	}](${data.username}) directly at ${data.gh_email}
 
 `;
 }
