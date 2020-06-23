@@ -14,7 +14,13 @@ step 4: node index.js
 ## Developing
 
 Below is a summary of the key files for this project:
+
 ![Image](./Develop/assets/img/readme.png)
+
+- **index.js** main application entry point
+- **promptUser** - utilities to get and validate input from user
+- **generateMarkdown** - utilities to generate README markdown
+- **package.json** - node package definition
 
 ## User Stories
 
