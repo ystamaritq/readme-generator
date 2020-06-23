@@ -12,6 +12,22 @@ step 3: npm install
 step 4: node index.js
 ```
 
+or
+
+**Install from the command line**
+
+```
+$ npm install @ystamaritq/readme-generator@1.0.0
+```
+
+**Install via package.json**
+
+```
+
+@ystamaritq/readme-generator": "1.0.0"
+
+```
+
 ## Developing
 
 Below is a summary of the key files for this project:
@@ -26,24 +42,24 @@ Below is a summary of the key files for this project:
 ## User Stories
 
 ```
+
 AS A developer
 
 I WANT a README generator
 
 SO THAT I can easily put together a good README for a new project
 
-
 ```
 
 ## Acceptance Criteria
 
 ```
+
 GIVEN the developer has a GitHub profile and a repository
 
 WHEN prompted for the developer's GitHub username and repo specific information
 
 THEN a README for the repo is generated
-
 
 ```
 
@@ -75,3 +91,7 @@ THEN a README for the repo is generated
 ---
 
 **developed with love by **@ystamaritq\*\*\*\*
+
+```
+
+```
