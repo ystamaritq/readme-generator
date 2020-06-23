@@ -11,6 +11,11 @@ step 3: npm install
 step 4: node index.js
 ```
 
+## Developing
+
+Below is a summary of the key files for this project:
+![Image](./Develop/assets/img/readme.png)
+
 ## User Stories
 
 ```
