@@ -6,7 +6,7 @@ A command-line application that dynamically generates a README.md from a user's 
 
 ```
 step 1: clone https://github.com/ystamaritq/readme-generator.git
-step 2: install node
+step 2: install node https://nodejs.org/en/download/
 step 3: npm install
 step 4: node index.js
 ```
@@ -35,11 +35,11 @@ THEN a README for the repo is generated
 
 ```
 
-## The generated README includes the following sections:
+## The generated README includes the following sections. And the user can keep all of the sections of some of them.
 
-- Badge
-- Title
-- Description
+- At least one Badge (required)
+- Title (required)
+- Description (required)
 - Table of Contents
 - Installation
 - Usage
@@ -47,6 +47,8 @@ THEN a README for the repo is generated
 - Contributing
 - Tests
 - Questions
+  - User GitHub profile picture
+  - User GitHub email
 
 ## Demo
 
