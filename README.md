@@ -32,7 +32,8 @@ $ npm install @ystamaritq/readme-generator@1.0.0
 
 Below is a summary of the key files for this project:
 
-![Image](./Develop/assets/img/readme.png)
+![Image](./Develop/assets/img/readme1.png)
+![Image](./Develop/assets/img/readme2.png)
 
 - **index.js** main application entry point
 - **promptUser** - utilities to get and validate input from user
